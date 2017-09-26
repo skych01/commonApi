@@ -1,0 +1,23 @@
+
+.drop_item {
+    overflow: hidden;
+    border-radius: 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 34px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 34px;
+    cursor: pointer;
+    border-top: none;
+}
+.drop_item_Selected{
+    background: #f3f3f3;
+}
+.drop_list{
+    overflow-y: auto;
+    max-height: 160px;
+}
+.hide{
+    display: none;
+}
